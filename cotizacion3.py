@@ -14,7 +14,7 @@ st.set_page_config(page_title="Cotizador FW", layout="centered")
 CONTADOR_FILE = "contador.txt"
 HISTORIAL_FILE = "historial_cotizaciones.csv"
 IGV_RATE = 0.18
-LOGO_PATH = "/content/drive/MyDrive/Tarea_Franco/final/logo.png"
+LOGO_PATH = "logo.png"
 
 # ===============================
 # CONTROL DE NÚMERO
