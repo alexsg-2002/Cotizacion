@@ -39,7 +39,7 @@ def guardar_historial(data):
 # PDF
 # ===============================
 def generar_pdf(data):
-    pdf_name = f"Cotizacion_FW_{data['numero']}_2025.pdf"
+    pdf_name = f"Cotizacion_FW_{data['numero']}_2026.pdf"
     c = canvas.Canvas(pdf_name, pagesize=A4)
     w, h = A4
 
@@ -248,7 +248,7 @@ if "productos" not in st.session_state:
     st.session_state.productos = []
 
 st.title("📄 Cotizador FULL WELL")
-st.markdown(f"### Cotización: **FW-{st.session_state.cot_num}-2025**")
+st.markdown(f"### Cotización: **FW-{st.session_state.cot_num}-2026**")
 
 # -------- DATOS GENERALES --------
 vendedor = st.text_input("Vendedor")
