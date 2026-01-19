@@ -64,7 +64,7 @@ def generar_pdf(data):
     # ENCABEZADO
     # -------------------------------
     c.setFont("Helvetica-Bold", 13)
-    c.drawString(50, h - 50, f"COTIZACIÓN FW-{data['numero']}-2025")
+    c.drawString(50, h - 50, f"COTIZACIÓN FW-{data['numero']}-2026")
 
     y = h - 80
     c.setFont("Helvetica", 10)
